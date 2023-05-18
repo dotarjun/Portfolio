@@ -38,19 +38,30 @@ const NavBar = () => {
         <motion.a
           href=" https://twitter.com/dotarjun"
           target={"_blank"}
-          whileHover={{}}
+          className="w-6 mx-3"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
         >
           <TwitterIcon />
         </motion.a>
-        <a href="https://github.com/dotarjun" target={"_blank"}>
+        <motion.a
+          href="https://github.com/dotarjun"
+          target={"_blank"}
+          className="w-6 mx-3"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <GithubIcon />
-        </a>
-        <a
-          href=""
-          target={"_blankhttps://www.linkedin.com/in/arjun-singh-a1a706189/"}
+        </motion.a>
+        <motion.a
+          href="https://www.linkedin.com/in/arjun-singh-a1a706189/"
+          target={"_blank"}
+          className="w-6 ml-3"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
         >
           <LinkedInIcon />
-        </a>
+        </motion.a>
         {/* <Link href="/" target={"_blank"}><TwitterIcon /></Link> */}
         {/* <Link href="/" target={"_blank"}><TwitterIcon /></Link> */}
       </nav>
