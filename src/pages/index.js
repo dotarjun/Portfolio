@@ -4,6 +4,7 @@ import Image from "next/image";
 import avatarPic from "../assets/avatar.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
+import { LinkArrow } from "@/components/Icons";
 
 export default function Home() {
   return (
@@ -26,9 +27,18 @@ export default function Home() {
                 Highlighting My Mastery in React.js and Web Development.
               </p>
               <div className="flex items-center self-start mt-2">
-                <Link href="/work">Work</Link>
-                <Link href="mailto:arjun@arjunsingh.tech" target={"_blank"}>
-                  Mail
+                <Link
+                  href="/about"
+                  className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 2border-solid border-4 border-transparent hover:border-dark"
+                >
+                  About Me
+                </Link>
+                <Link
+                  href="https://blog.arjunsingh.tech"
+                  target={"_blank"}
+                  className="flex justify-center items-center ml-4 text-lg font-medium capitalize text-dark underline"
+                >
+                  Read my blog! <LinkArrow className={"w-4 ml-1 "} />
                 </Link>
               </div>
             </div>
