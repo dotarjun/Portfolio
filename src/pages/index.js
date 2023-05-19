@@ -34,13 +34,13 @@ export default function Home() {
                 >
                   About Me
                 </Link>
-                <Link
+                {/* <Link
                   href="https://blog.arjunsingh.tech"
                   target={"_blank"}
                   className="flex justify-center items-center ml-4 text-lg font-medium capitalize text-dark underline"
                 >
                   Read my blog! <LinkArrow className={"w-4 ml-1 "} />
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="w-1/2">

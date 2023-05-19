@@ -10,7 +10,7 @@ module.exports = {
         mont: ["var(--font-mont)", ...fontFamily.sans],
       },
       animation: {
-        "spin-slow": "spin 8s linear infinte",
+        "spin-slow": "spin 8s linear infinite",
       },
       colors: {
         dark: "#1b1b1b",
