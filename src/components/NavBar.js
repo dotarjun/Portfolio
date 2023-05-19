@@ -26,7 +26,7 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 const NavBar = () => {
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
+    <header className="w-full px-32 py-8 font-semibold text-lg flex items-center justify-between">
       <nav className="flex gap-x-8">
         <CustomLink title="Home" href="/" />
         <CustomLink title="About" href="/about" />
@@ -38,8 +38,8 @@ const NavBar = () => {
         <motion.a
           href=" https://twitter.com/dotarjun"
           target={"_blank"}
-          className="w-6 mx-3"
-          whileHover={{ y: -2 }}
+          className=" w-9 mx-4"
+          whileHover={{ y: -4 }}
           whileTap={{ scale: 0.9 }}
         >
           <TwitterIcon />
@@ -47,8 +47,8 @@ const NavBar = () => {
         <motion.a
           href="https://github.com/dotarjun"
           target={"_blank"}
-          className="w-6 mx-3"
-          whileHover={{ y: -2 }}
+          className=" w-9 mx-4"
+          whileHover={{ y: -4 }}
           whileTap={{ scale: 0.9 }}
         >
           <GithubIcon />
@@ -56,9 +56,9 @@ const NavBar = () => {
         <motion.a
           href="https://www.linkedin.com/in/arjun-singh-a1a706189/"
           target={"_blank"}
-          className="w-6 ml-3"
-          whileHover={{ y: -2 }}
-          whileTap={{ scale: 0.9 }}
+          className=" w-9 ml-4"
+          whileHover={{ y: -4 }}
+          whileTap={{ scale: 0.8 }}
         >
           <LinkedInIcon />
         </motion.a>
