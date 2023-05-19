@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import avatarPic from "../assets/avatar.png";
 import AnimatedText from "@/components/AnimatedText";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,13 +18,19 @@ export default function Home() {
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText
                 text="Empowering Businesses with Code and Striking Visual Design."
-                className="!text-5xl"
+                className="!text-6xl !text-left"
               />
-              <p>
+              <p className="my-4 text-base font-medium ">
                 Building Exceptional Web Solutions as a Proficient Full-Stack
                 Developer. Discover My Portfolio and Educational Articles,
                 Highlighting My Mastery in React.js and Web Development.
               </p>
+              <div className="flex items-center self-start mt-2">
+                <Link href="/work">Work</Link>
+                <Link href="mailto:arjun@arjunsingh.tech" target={"_blank"}>
+                  Mail
+                </Link>
+              </div>
             </div>
             <div className="w-1/2">
               <Image src={avatarPic} alt="Avatar" className="w-full h-auto" />
