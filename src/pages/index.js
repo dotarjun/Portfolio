@@ -6,6 +6,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
+import Badges from "@/components/Badges";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
                 and web development. Building and shipping exceptional front end
                 solutions
               </p>
+              <Badges />
               <div className="flex items-center self-start mt-2">
                 <Link
                   href="/about"
