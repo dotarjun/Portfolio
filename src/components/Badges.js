@@ -1,5 +1,7 @@
 import React from "react";
 
+// TODO: Add animation with stagger children inspired from AnimatedText.js
+
 const Badges = ({ className }) => {
   return (
     <div
