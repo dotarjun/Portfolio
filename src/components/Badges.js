@@ -3,7 +3,7 @@ import React from "react";
 const Badges = ({ className }) => {
   return (
     <div
-      className={`w-full mb-4 flex flex-wrap items-center justify-start gap-y-1 ${className}`}
+      className={`w-full mb-4 py-2 flex flex-wrap items-center justify-start gap-y-1 ${className}`}
     >
       <span class="bg-orange-100 text-orange-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-orange-900 dark:text-orange-300">
         HTML
