@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import avatarPic from "../assets/avatar.png";
+import avatarPic from "../assets/avatar.svg";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -51,7 +51,11 @@ export default function Home() {
               </div>
             </div>
             <div className="w-1/2">
-              <Image src={avatarPic} alt="Avatar" className="w-full h-auto" />
+              <Image
+                src={avatarPic}
+                alt="Avatar"
+                className="w-full h-auto ml-36"
+              />
             </div>
           </div>
         </Layout>
