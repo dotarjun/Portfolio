@@ -23,9 +23,11 @@ export default function Home() {
                 className="!text-6xl !text-left"
               />
               <p className="my-4 text-base font-medium ">
-                Building Exceptional Web Solutions as a Proficient Full-Stack
-                Developer. Discover My Portfolio and Educational Articles,
-                Highlighting My Mastery in React.js and Web Development.
+                With a focus on exceptional web solutions, my proficiency as a
+                full-stack developer shines through in my portfolio, projects
+                and educational articles, highlighting my mastery in React.js
+                and web development. Building and shipping exceptional front end
+                solutions
               </p>
               <div className="flex items-center self-start mt-2">
                 <Link
