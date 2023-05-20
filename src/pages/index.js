@@ -31,20 +31,23 @@ export default function Home() {
                 solutions
               </p>
               <Badges />
-              <div className="flex items-center self-start mt-2">
+              <div className="flex items-center self-start mt-2 w-1/2">
                 <Link
                   href="/about"
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 2border-solid border-4 border-transparent hover:border-dark"
                 >
                   About Me
                 </Link>
-                {/* <Link
+                <Link
                   href="https://blog.arjunsingh.tech"
                   target={"_blank"}
-                  className="flex justify-center items-center ml-4 text-lg font-medium capitalize text-dark underline"
+                  className=" flex justify-center items-center ml-4 text-md font-medium capitalize text-dark underline"
                 >
-                  Read my blog! <LinkArrow className={"w-4 ml-1 "} />
-                </Link> */}
+                  My Blog
+                  <div>
+                    <LinkArrow className={"w-4 ml-1 "} />
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="w-1/2">
