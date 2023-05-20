@@ -66,7 +66,7 @@ const NavBar = () => {
         {/* <Link href="/" target={"_blank"}><TwitterIcon /></Link> */}
       </nav>
       <div className=" absolute left-[50%] top-2 translate-x-[-50%]">
-        <Logo />
+        {/* <Logo /> */}
       </div>
     </header>
   );
