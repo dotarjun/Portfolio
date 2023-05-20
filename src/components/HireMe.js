@@ -9,9 +9,9 @@ const HireMe = () => {
     <div className="fixed right-5 bottom-5 flex items-center justify-center overflow-hidden">
       <motion.div
         className=" w-56 h-auto flex items-center justify-center relative"
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
+        // initial={{ opacity: 0, scale: 0.5 }}
+        // animate={{ opacity: 1, scale: 1 }}
+        // transition={{ duration: 0.5 }}
       >
         <CircularText className={"fill-dark  animate-spin-slow"} />
         <Link
