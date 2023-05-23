@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import ProfilePic from "../assets/peep-removebg.svg";
+import ProfilePic from "../assets/peep-removebg.png";
 import Skills from "@/components/Skills";
 
 const about = () => {
@@ -17,11 +17,11 @@ const about = () => {
         <Layout>
           <AnimatedText
             text="Transforming User Experiences"
-            className="mb-16 !text-6xl"
+            className="mb-4 !text-6xl pt-4"
           />
           <div className="grid w-full grid-cols-8 gap-16">
-            <div className="col-span-3 flex flex-col items-start justify-start">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
+            <div className="col-span-3 flex flex-col items-start justify-start mt-16">
+              <h2 className="mb-4 text-xl font-bold uppercase text-dark/75">
                 About me
               </h2>
               {/* <p className="font-medium ">
