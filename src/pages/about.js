@@ -24,20 +24,6 @@ const about = () => {
               <h2 className="mb-4 text-xl font-bold uppercase text-dark/75">
                 About me
               </h2>
-              {/* <p className="font-medium ">
-                Hi, I&apos;m Arjun, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. I believe that design is about more than
-                just making things look pretty. It&apos;s about solving problems
-                and creating intuitive, enjoyable experiences for users.
-              </p>
-              <p className="font-medium my-4">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
-              </p> */}
               <p className="font-medium mb-4">
                 Hello, I&apos;m Arjun, a results-driven web developer and UI/UX
                 designer who is passionate about crafting beautiful, functional,
