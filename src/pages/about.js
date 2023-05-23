@@ -66,7 +66,6 @@ const about = () => {
             </div>
 
             <div className="col-span-3  col-start-6 relative h-max rounded-2xl  ">
-              {/* <MyAvatar className="w-full h-auto rounded-2xl" /> */}
               <Image
                 src={ProfilePic}
                 alt="Arjun"
