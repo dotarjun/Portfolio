@@ -5,6 +5,8 @@ import Image from "next/image";
 import React from "react";
 import ProfilePic from "../assets/peep-removebg.png";
 import Skills from "@/components/Skills";
+import Link from "next/link";
+import { devicon } from "devicon";
 
 const about = () => {
   return (
@@ -12,6 +14,7 @@ const about = () => {
       <Head>
         <title>Arjun | About Page</title>
         <meta name="description" content="About page" />
+        <Link rel="stylesheet" href="devicon.min.css" />
       </Head>
       <main className="flex w-full flex-col items-center justify-center">
         <Layout>
