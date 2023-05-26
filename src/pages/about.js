@@ -6,7 +6,7 @@ import React from "react";
 import ProfilePic from "../assets/peep-removebg.png";
 import Skills from "@/components/Skills";
 import Link from "next/link";
-import { devicon } from "devicon";
+// import { devicon } from "devicon";
 
 const about = () => {
   return (
