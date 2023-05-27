@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div>
       <h2 className="font-bold text-6xl mt-32 w-full text-center">Skills</h2>
-      <div className="w-full h-screen relative flex items-center justify-center rounded-full">
+      <div className="w-full relative py-20 flex items-center justify-center rounded-full">
         <div className="flex flex-wrap gap-4">
           <SkillsCard
             name="html"
