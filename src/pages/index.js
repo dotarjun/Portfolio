@@ -22,7 +22,7 @@ export default function Home() {
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText
                 text="Empowering Businesses with Code and Striking Visual Design."
-                className="!text-6xl !text-left"
+                className="!text-5xl !text-left"
               />
               <p className="my-4 text-base font-medium ">
                 With a focus on exceptional web solutions, my proficiency as a
