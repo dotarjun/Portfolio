@@ -1,11 +1,16 @@
 import React from "react";
 import SkillsCard from "./SkillsCard";
+import AnimatedText from "./AnimatedText";
 
 const Skills = () => {
   const path = "/src/assets/devicons/";
   return (
     <div>
-      <h2 className="font-bold text-6xl mt-32 w-full text-center">Skills</h2>
+      <h2>Skills</h2>
+      <AnimatedText
+        text="Skills"
+        className="font-bold text-5xl mt-32 w-full text-center"
+      />
       <div className="w-full relative py-20 flex items-center justify-center rounded-full">
         <div className="flex flex-wrap gap-4">
           <SkillsCard
