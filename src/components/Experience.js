@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Experience = () => {
   return (
-    <div>Experience</div>
-  )
-}
+    <div className="my-64">
+      <h2 className="font-bold text-5xl mb-32 w-full text-center">
+        Experience
+      </h2>
+    </div>
+  );
+};
 
-export default Experience
+export default Experience;
