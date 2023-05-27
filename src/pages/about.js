@@ -6,6 +6,7 @@ import React from "react";
 import ProfilePic from "../assets/peep-removebg.png";
 import Skills from "@/components/Skills";
 import Link from "next/link";
+import Experience from "@/components/Experience";
 // import { devicon } from "devicon";
 
 const about = () => {
@@ -64,6 +65,7 @@ const about = () => {
           </div>
 
           <Skills />
+          <Experience />
         </Layout>
       </main>
     </div>
