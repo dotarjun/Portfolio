@@ -2,17 +2,56 @@ import React from "react";
 import SkillsCard from "./SkillsCard";
 
 const Skills = () => {
+  const path = "/src/assets/devicons/";
   return (
     <div>
       <h2 className="font-bold text-6xl mt-32 w-full text-center">Skills</h2>
       <div className="w-full h-screen relative flex items-center justify-center rounded-full">
         <div className="flex flex-wrap gap-4">
-          <SkillsCard name="react" />
-          <SkillsCard name="nextjs" />
-          <SkillsCard name="mysql" />
-          <SkillsCard name="tailwindcss" />
-          <SkillsCard name="jest" />
-          <SkillsCard name="mysql" />
+          <SkillsCard
+            name="html"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+          />
+          <SkillsCard
+            name="css"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+          />
+          <SkillsCard
+            name="javascript"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          />
+          <SkillsCard
+            name="react"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+          />
+          <SkillsCard
+            name="nextjs"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
+          />
+          <SkillsCard
+            name="node"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+          />
+          <SkillsCard
+            name="mysql"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+          />
+          <SkillsCard
+            name="tailwindcss"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+          />
+          <SkillsCard
+            name="jest"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+          />
+          <SkillsCard
+            name="git"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+          />
+          <SkillsCard
+            name="linux"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+          />
         </div>
       </div>
     </div>
