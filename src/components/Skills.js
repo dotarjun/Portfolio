@@ -41,10 +41,6 @@ const Skills = () => {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
           />
           <SkillsCard
-            name="jest"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
-          />
-          <SkillsCard
             name="git"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
           />
