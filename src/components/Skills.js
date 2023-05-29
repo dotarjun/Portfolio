@@ -6,10 +6,7 @@ const Skills = () => {
   const path = "/src/assets/devicons/";
   return (
     <div>
-      <AnimatedText
-        text="Skills"
-        className="font-bold text-5xl mt-32 w-full text-center"
-      />
+      <AnimatedText text="Skills" className="!text-5xl mt-36 text-center" />
       <div className="w-full relative py-20 flex items-center justify-center rounded-full">
         <div className="flex flex-wrap gap-4">
           <SkillsCard
