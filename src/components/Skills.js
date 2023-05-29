@@ -6,7 +6,6 @@ const Skills = () => {
   const path = "/src/assets/devicons/";
   return (
     <div>
-      <h2>Skills</h2>
       <AnimatedText
         text="Skills"
         className="font-bold text-5xl mt-32 w-full text-center"
