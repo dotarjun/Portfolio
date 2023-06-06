@@ -15,7 +15,7 @@ const Details = ({
           {position}&nbsp;<a href={companyLink}>, {company}</a>
         </h3>
         <span>
-          {time}|{address}
+          {time} | {address}
         </span>
         <p>{description}</p>
       </div>
@@ -31,7 +31,13 @@ const Experience = () => {
       </h2>
       <div className=" w-[75%] mx-auto relative">
         <ul>
-          <Details />
+          <Details  
+            position="Junior Intern"
+            company="BCTA"
+            companyLink="http://bctaindia.org/"
+            time="3 Months"
+            address="Raj Niwas Marg, New Delhi"
+          />
         </ul>
       </div>
     </div>
