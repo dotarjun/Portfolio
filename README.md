@@ -1,6 +1,9 @@
 # Portfolio
 
-Welcome to my portfolio repository! This repository contains the code and assets for my personal portfolio website. You can visit the live version of the website [here](https://dotarjun.github.io/Portfolio).
+Welcome to my portfolio repository! This repository contains the code and assets for my personal portfolio website. You can visit the live version of the website [here](https://www.arjunsingh.tech/).
+
+![image](https://github.com/dotarjun/Portfolio/assets/71163609/21934906-804e-4e9c-ae88-5d854f15445f)
+
 
 ## Table of Contents
 
