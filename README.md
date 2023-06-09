@@ -22,11 +22,8 @@ The website is designed to be visually appealing, user-friendly, and responsive 
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-- React
 - Next JS
+- Tailwind
 - Framer Motion
 - Figma
 
